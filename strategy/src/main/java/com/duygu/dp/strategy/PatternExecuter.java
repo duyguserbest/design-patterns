@@ -22,6 +22,8 @@ public class PatternExecuter {
 		
 		System.out.println("Ranger fights the monster:");
 		ranger.fight();
+		ranger.setWeapon(new MeleeWeapon());
+		ranger.fight();
 	}
 	
 }
